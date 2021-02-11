@@ -1,16 +1,28 @@
 /*IMPORTANDO FUENTES*/
-@font-face{
+@font-face {
   font-family: "Lato";
   src: url("../Fonts/Lato/Lato-Regular.ttf");
 }
-body{
+
+body {
   font-family: "Lato";
 }
-.bxl-facebook-circle{
-  color: blue;
-  font-size: 50px;
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+
 }
-.bxs-star{
-  color: yellow;
-  font-size: 20px;
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(41, 216, 204, 0.582) 0%, rgba(180, 144, 202, 0.557) 100%), url(../img/internet2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
 }
