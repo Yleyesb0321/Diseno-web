@@ -76,7 +76,8 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /*transition: transform .3s easy-in-out;*/
+  /*EFECTO*/
+  transition: transform .3s easy-in-out;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   transform: translate(110%);
 
@@ -308,4 +309,15 @@ footer {
   color: #dee2e6;
   text-align: center;
   padding-bottom: 20px;
+}
+/*DISEÑO RESPONSIVE*/
+/*PANTALLA 800PX*/
+@media screen and (max-width:800px){
+  .menu-nav {
+    width: 50vw;
+  }
+  .titulo{
+    font-size: 40px;
+  }
+  
 }
