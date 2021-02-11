@@ -148,3 +148,37 @@ header {
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
   cursor: pointer;
 }
+.imagen-light{
+  position: fixed;
+  background: rgba(0,0,0,.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(100%);
+  transition: transform .2s ease-in-out;
+}
+.show{
+  transform: translate(0);
+}
+.agregar-img{
+  width: 60%;
+  border-radius: 10px;
+  /*EFECTO IMG*/
+  transform: scale(0);
+  transition: transform .3s .2s;
+}
+/*PARA AGRGAR LA IMG CUANDO DAMOS CLICK*/
+.show-img{
+  transform: scale(1);
+}
+.cerrar{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  cursor: pointer;
+}
