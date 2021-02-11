@@ -90,3 +90,61 @@ header {
   font-weight: 300;
   font-size: 25px;
 }
+
+/*NUESTROS SERVICIOS*/
+.subtitulo{
+  text-align: center;
+  font-weight: 300;
+  color: #52b788;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+.contenedor-servicio{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contenedor-servicio img{
+  width: 40%;
+
+}
+.launch-servicio{
+  width: 45%;
+}
+.service{
+  margin-bottom: 20px;
+}
+.n-service{
+  margin-bottom: 7px;
+  color: #52b788;
+
+}
+.number{
+  display: inline-block;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-right: 5px;
+}
+.gallery{
+  background: #e9ecef;
+}  
+
+.contenedor-galeria{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.img-galeria{
+  width: 30%;
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
