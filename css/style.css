@@ -1,3 +1,11 @@
+/*IMPORTANDO FUENTES*/
+@font-face{
+  font-family: "Lato";
+  src: url("../Fonts/Lato/Lato-Regular.ttf");
+}
+body{
+  font-family: "Lato";
+}
 .bxl-facebook-circle{
   color: blue;
   font-size: 50px;
