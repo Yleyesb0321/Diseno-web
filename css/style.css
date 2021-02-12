@@ -40,6 +40,7 @@ header {
 
 .container-head {
   padding: 0;
+  text-align: center;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -165,6 +166,7 @@ header {
 
 .img-galeria {
   width: 30%;
+  object-fit: cover;
   display: block;
   margin-bottom: 15px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
@@ -191,6 +193,7 @@ header {
 
 .agregar-img {
   width: 60%;
+  object-fit: cover;
   border-radius: 10px;
   /*EFECTO IMG*/
   transform: scale(0);
@@ -311,7 +314,7 @@ footer {
   padding-bottom: 20px;
 }
 /*DISEÑO RESPONSIVE*/
-/*PANTALLA 800PX*/
+/*PANTALLA 500PX*/
 @media screen and (max-width:800px){
   .menu-nav {
     width: 50vw;
@@ -319,5 +322,80 @@ footer {
   .titulo{
     font-size: 40px;
   }
-  
+  /*SERVICIOS*/
+  .contenedor-servicio img{
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .launch-servicio{
+    width: 80%;
+  }
+  .service{
+    margin-bottom: 30px;
+  }
+  .agregar-img{
+    width: 80%;
+  }
+  .img-galeria{
+    width: 40%;
+  }
+
+  /*EXPERTOS*/
+  .cont-experts{
+    width: 80%;
+  }
+  /*FOOTER*/
+  .footer-content{
+    justify-content: center;
+  }
+  .social-media{
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  .social-media-icon{
+    margin-left: 0;
+  }
+  .social-media i{
+    margin-left: 0;
+  }
+  .contact-us{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .brand img{
+    width: 10%;
+  }
+
+}
+/*PANTALLA 300PX*/
+@media screen and (max-width:500px){
+  .menu-nav{
+    width: 65vw;
+  }
+  .principal{
+    top: 20px;
+    right: 20px;
+  }
+  .titulo{
+    font-size: 30px;
+  }
+  .subtitulo{
+    font-size: 30px;
+  }
+  .agregar-img{
+    width: 95%;
+  }
+  .img-galeria{
+    width: 95%;
+  }
+  .social-media{
+    width: 100%;
+  }
+  .contact-us{
+    width: 90%;
+  }
+  .brand img{
+    width: 30%;
+  }
 }
