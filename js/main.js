@@ -1,8 +1,8 @@
 const principal = document.querySelector('.principal');
 const menu= document.querySelector('.menu-nav');
 
-console.log(principal);
-console.log(menu);
+/* console.log(principal);
+console.log(menu); */
 
 //EVENTO CLICK ABRIR
 principal.addEventListener('click' , () =>{
